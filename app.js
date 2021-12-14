@@ -12,7 +12,9 @@ function initWallet() {
 }
 
 function restoreWallet() {
+    //use a saved mnemonic to restore the same wallet
     const mnemonic = 'wedding dawn hurry disorder picture until media slight lens whip right foot';
+    //check if mnemonic is valid
     const validMnemonic = HDWallet.validateMnemonic(mnemonic);
 
     if(validMnemonic){
@@ -22,9 +24,9 @@ function restoreWallet() {
         const childKeys = wallet.getChildKeys('m/0/1');
         console.log(childKeys)
     }
-
 }
 
+initWallet();
 restoreWallet();
 
 
