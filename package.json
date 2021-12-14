@@ -1,0 +1,24 @@
+{
+  "name": "hdk-wallet-lib-sample",
+  "version": "1.0.0",
+  "description": "Minimum implementation of HD wallet using hdk-wallet",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadicalLedger/hdk-wallet-lib-sample.git"
+  },
+  "author": "ZeDeId",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RadicalLedger/hdk-wallet-lib-sample/issues"
+  },
+  "homepage": "https://github.com/RadicalLedger/hdk-wallet-lib-sample#readme",
+  "dependencies": {
+    "@zedeid-sdk/zedeid-hdk-wallet": "^1.0.0-2",
+    "express": "^4.17.1"
+  }
+}
