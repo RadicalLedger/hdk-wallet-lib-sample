@@ -7,7 +7,7 @@ Simplest usage of @zedeid-sdk/zedeid-hdk-wallet
 `npm start`
 
 ## How it works?
-* Init a wallet by generating a mnemonic
+* Initialise a wallet by generating a random seed (get converted to a mnemonic)
 * Use Wallet.getChildKeys("_path_") to generate child keys
 * path should be in the form of `m/index_parent/index_child`
 * `ex: m/2/1/4`
